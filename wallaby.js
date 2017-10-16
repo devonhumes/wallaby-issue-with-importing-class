@@ -11,9 +11,6 @@ module.exports = function () {
         env: {
             type: 'node'
         },
-        testFramework: 'mocha',
-        workers: {
-            recycle: true
-        }
+        testFramework: 'mocha'
     };
 };
